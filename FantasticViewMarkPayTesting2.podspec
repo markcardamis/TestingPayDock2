@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
 This fantastic view changes its color gradually makes your app look fantastic!
                        DESC
  
-  s.homepage         = 'https://github.com/markcardamis/FantasticView'
+  s.homepage         = 'https://github.com/markcardamis/TestingPayDock2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mark' => 'mark.cardamis@paydock.com' }
-  s.source           = { :git => 'https://github.com/markcardamis/FantasticView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/markcardamis/TestingPayDock2.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '11.2'
   s.source_files = 'PayDock/**/*.{h,m}', 'PayDock/**/*.swift'
